@@ -1,0 +1,39 @@
+
+.container{
+  margin: 0 auto;
+  margin-top: 50px;
+  min-height: 100vh;
+  width: 216mm;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(5,auto);
+
+}
+.container >*{
+  background-color: #666;
+  border: medium solid #222;
+}
+.Foto{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.BarraLateral{
+  grid-column: 1/2;
+  grid-row: 2/5;
+}
+.PieLateral{
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+.Experiencia{
+  grid-column: 2/4;
+  grid-row: 1/4;
+}
+.Educacion{
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+.Skills{
+  grid-column: 2/4;
+  grid-row: 5/6;
+}
