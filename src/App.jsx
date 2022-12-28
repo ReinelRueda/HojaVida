@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+
 import BarraLateral from './componentes/BarraLateral'
 import Educacion from './componentes/Educacion'
 import Experiencia from './componentes/Experiencia'
