@@ -7,7 +7,11 @@ const Educacion = () => {
       <h5>Basica Primaria </h5>
       <p>Escuela rural la aguada (Cundinamarca)</p>
       <h5>Bachillerato</h5>
-      <p>Colegio Distrital Nuevo San Andres de los Altos</p>
+      <ul>
+        <li>Colegio Departamental Calixto Gaitan </li>
+        <li><p>Colegio Distrital Nuevo San Andres de los Altos</p></li>
+      </ul>
+      
       <h5>Educacion Superior</h5>
       <p>Corporacion Universitaria Minuto de Dios </p>
 
